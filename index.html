@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123c2f"><title>Dugu Kla Food — Restaurant malien</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header class="hero"><nav class="nav wrap">
+<a class="brand" href="#"><span class="logo">DK</span><span>DUGU KLA <b>FOOD</b></span></a>
+<div class="links"><a href="#menu">Menu</a><a href="#story">Notre histoire</a><a href="#contact">Contact</a></div>
+<button id="openCart" class="cart">Panier <span id="count">0</span></button></nav>
+<div class="hero-grid wrap"><div><p class="eyebrow">🇲🇱 CUISINE MALIENNE • BAMAKO</p><h1>Le goût du Mali,<br><i>servi avec cœur.</i></h1><p class="lead">Tô, riz, maafé, zamè et spécialités maliennes préparés avec générosité.</p><a href="#menu" class="btn gold">Découvrir le menu ↗</a></div>
+<div class="hero-dish"><div>🍛</div><small>SPÉCIALITÉ DU JOUR</small><strong id="special">—</strong><b id="specialPrice">—</b></div></div></header>
+
+<section id="menu" class="section wrap"><div class="section-head"><div><p class="eyebrow wine">LA CARTE</p><h2>Nos plats <i>maliens.</i></h2></div><div id="filters"></div></div><div id="menuGrid" class="grid"><p>Chargement…</p></div></section>
+
+<section id="story" class="story"><div class="wrap story-grid"><div><p class="eyebrow">DUGU KLA FOOD</p><h2>Une cuisine simple.<br><i>Une identité forte.</i></h2></div><p>Nous mettons à l’honneur les recettes maliennes et une expérience chaleureuse. Notre ambition est de rendre les bons plats du Mali accessibles en quelques clics.</p></div></section>
+
+<section id="contact" class="contact"><div class="wrap contact-grid"><div><p class="eyebrow">COMMANDER</p><h2>Votre prochain repas<br><i>commence ici.</i></h2></div><a href="#menu" class="btn light">Commander maintenant</a></div></section>
+<footer><div class="wrap foot"><b>DUGU KLA FOOD.</b><span>Restaurant malien • Bamako</span><span>© 2026</span></div></footer>
+
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" id="closeCart">×</button><p class="eyebrow wine">VOTRE COMMANDE</p><h2>Mon panier</h2><div id="cart"></div><div class="total"><span>Total</span><b id="total">0 FCFA</b></div>
+<form id="orderForm" class="form"><input name="customer_name" placeholder="Votre nom" required><input name="phone" placeholder="Téléphone" required><input name="address" placeholder="Adresse / lieu" required><select name="delivery_type"><option value="livraison">Livraison</option><option value="retrait">Retrait sur place</option></select><button class="btn gold full">Confirmer la commande</button></form><p id="message"></p></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="app.js"></script>
+</body></html>

@@ -1,0 +1,15 @@
+DUGU KLA FOOD — CHECKLIST ANDROID
+
+1. Télécharger le ZIP.
+2. Extraire le dossier avec ton gestionnaire de fichiers.
+3. Ouvrir les fichiers avec un éditeur HTML sur Android.
+4. Créer le projet Supabase.
+5. Exécuter supabase-schema.sql.
+6. Créer le compte du gérant dans Authentication > Users.
+7. Copier URL + anon public key dans config.js.
+8. Ajouter le numéro WhatsApp du restaurant.
+9. Tester index.html.
+10. Tester admin.html.
+11. Mettre le dossier en ligne avec GitHub Pages / Netlify / Vercel.
+
+NE JAMAIS METTRE service_role dans config.js.
